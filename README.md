@@ -1,0 +1,2 @@
+# GOS
+Generator Sertifikat Otomatis
