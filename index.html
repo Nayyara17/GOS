@@ -284,7 +284,7 @@
             const nama = document.getElementById('namaInput').value || 'Nama Penerima';
             
             // Auto-detect best position and size for text
-            const fontSize = Math.max(13, Math.min(29, canvas.width / 25));
+            const fontSize = Math.max(16, Math.min(34, canvas.width / 20)); // sedikit lebih besar
             
             // Set font with black color
             ctx.font = `bold ${fontSize}px Arial`;
@@ -336,7 +336,7 @@
             const nama = document.getElementById('namaInput').value || 'Nama Penerima';
             
             // Scale font size
-            const fontSize = Math.max(39, Math.min(87, downloadCanvas.width / 25));
+            const fontSize = Math.max(48, Math.min(100, downloadCanvas.width / 20)); // menyesuaikan versi resolusi tinggi;
             
             // Set font for high-res with black color
             downloadCtx.font = `bold ${fontSize}px Arial`;
